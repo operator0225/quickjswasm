@@ -1,0 +1,30 @@
+return {
+	EPERM   = 1,   -- Operation not permitted
+	ENOENT  = 2,   -- No such file or directory
+	ESRCH   = 3,   -- No such process
+	EINTR   = 4,   -- Interrupted system call
+	EIO     = 5,   -- I/O error
+	EBADF   = 9,   -- Bad file descriptor
+	ECHILD  = 10,  -- No child processes
+	EAGAIN  = 11,  -- Try again
+	ENOMEM  = 12,  -- Out of memory
+	EACCES  = 13,  -- Permission denied
+	EFAULT  = 14,  -- Bad address
+	EBUSY   = 16,  -- Device or resource busy
+	EEXIST  = 17,  -- File exists
+	ENODEV  = 19,  -- No such device
+	ENOTDIR = 20,  -- Not a directory
+	EISDIR  = 21,  -- Is a directory
+	EINVAL  = 22,  -- Invalid argument
+	ENFILE  = 23,  -- File table overflow
+	EMFILE  = 24,  -- Too many open files
+	EFBIG   = 27,  -- File too large
+	ENOSPC  = 28,  -- No space left on device
+	EPIPE   = 32,  -- Broken pipe
+	ERANGE  = 34,  -- Math result not representable
+	ELOOP   = 40,  -- Too many symbolic links
+	ENAMETOOLONG = 36, -- File name too long
+	ENOSYS  = 38,  -- Function not implemented
+	ENOTEMPTY = 39, -- Directory not empty
+	EDEADLK = 35,  -- Resource deadlock would occur
+}
