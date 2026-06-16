@@ -1,0 +1,5 @@
+local CPU = require("./CPU")
+print("CPU.u64(-1):", CPU.u64(-1))
+print("0xFFFF...:", 0xFFFFFFFFFFFFFFFF)
+print("equal:", CPU.u64(-1) == 0xFFFFFFFFFFFFFFFF)
+print("CPU.i64(0xFFFF...):", CPU.i64(0xFFFFFFFFFFFFFFFF))

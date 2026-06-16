@@ -1,0 +1,7 @@
+local CPU = require("./CPU")
+print("u64(-1):", CPU.u64(-1), "== 0xFFFF..:", CPU.u64(-1) == 0xFFFFFFFFFFFFFFFF)
+print("i64(0xFFFF...):", CPU.i64(0xFFFFFFFFFFFFFFFF), "(expect -1)")
+print("i64(0x80000000_00000000):", CPU.i64(0x8000000000000000), "(expect -9223...)")
+print("i64(42):", CPU.i64(42))
+print("u32(-1):", CPU.u32(-1), "== 0xFFFFFFFF:", CPU.u32(-1) == 0xFFFFFFFF)
+print("i32(0x80000000):", CPU.i32(0x80000000), "(expect -2147483648)")
